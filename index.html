@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link  rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Who</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Where">Where</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#How">How</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#more">more</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- first block -->
+    <section id="Where">
+        <div class="container-fluid text-center text-white bg-info py-5">
+            <h1 data-aos="flip-up">Who am I?</h1>
+            <img src="http://picsum.photos/id/1011/400" class="rounded-circle" alt="">
+        </div>
+    </section>
+    <!-- second block -->
+    <section id="How">
+        <div class="container-fluid bg-secondary text-white text-center  py-5">
+            <h1 class="pt-5">About Me</h1>
+            <p class="py-5">Containers are a fundamental building block of Bootstrap that contain, pad, and align your
+                content within a given device or viewport.</p>
+            <button>Search</button>
+
+        </div>
+    </section>
+    <!-- third block -->
+    <section id="more">
+        <div class="container-fluid bg-secondary text-white text-center py-5">
+            <h1 class="pt-5">Find ME</h1>
+            <div class="row">
+
+                <div class="card col-md-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                <img src="http://picsum.photos/id/1011/400" alt="...">
+            </div>
+
+
+            <div class="card col-md-4">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            <img src="http://picsum.photos/id/1012/400" alt="...">
+        </div>
+
+
+        <div class="card col-md-4">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        <img src="http://picsum.photos/id/1013/400" alt="...">
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-5">
+        <p>Design by 1109211031 林汶慧 &copy;</p>
+
+    </footer>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
